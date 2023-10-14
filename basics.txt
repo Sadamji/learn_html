@@ -1,9 +1,34 @@
-<iink>
-<script>
+HTML TAGS
+Resources			Forms
+<iink>				<form>
+<script>			<input>		
+				<textarea>
+				<select>
+Text				<option>
+<b>				<optgroup>
+<i>				<label>
+<u>				<button>
+<sup>				<fieldset>
+<br>				<legend>
+<em>				<datalist>
+<h1>				<output>
+<p>
+<pre>
+<strong>
+				Links & Frames	
+Media				<a>
+<img>				<iframe>
+<audio>
+<video>
+<source>
+<area>
+<canvas>
+<svg>
+<embed>
+<figure>
+<figcaption>
+<map>
+<picture>
+<track>
 
-<b>
-<i>
-<u>
-<sup>
 
-<br>
