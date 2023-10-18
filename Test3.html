@@ -1,36 +1,154 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charest="UTF-8">
-        <meta name="viewport" content="width-device-width, initial scale=1.0">
-        <style>
-            body { font-size:20px;
-                   font-family:Arial, Helvetica, sans-serif
-            }
-        .mainText{ font-weight:bold;
-                   font-family:Arial, Helvetica, sans-serif
-                   text-transform;uppercase
+
+<head>
+    <meta charest="UTF-8">
+    <meta name="viewport" content="width-device-width, initial scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {            
+            padding: 0 20px;
+            box-sizing: border-box;
         }
 
-         
+        .topper{
+            background-color: #333232;
+            height: 50px;
+        }
+        .third {
+            width: 25%;
+            display: inline-block;
+            text-align: center;
+            padding: 0 20px;            
+            border-bottom: 1px solid red;
+            height: 200px;
+        }
 
+        .btnBorder {
+            border: 2px solid black;
+            margin-bottom: 20px;;            
+        }
 
-        </style>
-        
-    </head>
-    <body>
-        <h1 class="mainText"> wooden workshop</h1>
-        <h2 class="secondaryText">The workshop</h2>
-        <p>Lorem ipsum dolor sit amet,consectetur adispiscing elit, sed do eiusmod tempor
-            Incidunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non prodent, sunt in culpa qui offcia
-            deserunt mollit anim id est laborum!</p>
-            <h3><button type="button"></button>Read more...</h3>
-            <div>
-                <div> screen1</div>
-                <div>screen2</div>
-                <div>screen3</div>
-        </body>
-        </html>
+        .mainDiv {
+            padding: 45px 15px;
+            height: 175px;
+            background-color: #dddbdb;
+        }
 
+        hr {
+            color: red;            
+        }
+        .footer{
+            background-color: #333232;
+            color:white;    
+            margin: auto;   
+            padding-bottom: 30px;               
+        }
+        .aside{
+            width:20%;
+            display: inline-block;
+            border-left: 3px solid white;
+            padding-left: 20px;
+        }
+        .bside{
+            width:40%;
+            display: inline-block;
+            border-left: 3px solid white;
+            padding-left: 20px;
+        }
+        .cside{
+            width:20%;
+            display: inline-block;
+            border-left: 3px solid white;
+            padding-left: 20px;
+        }
+        .bottomFooter{
+            width: 75%;
+            margin: auto;
+            font-size: 12px;;
+        }
+        .icon{
+            padding: 20px 10px;
+            text-align: center;
+        }
+        .namedLocation{
+            font-weight: 700;
+            color: #9d171e;
+
+        }
+        .infoBlock{
+            font-size: 10px;;
+        }
+        .jingo{
+            font-weight: 700;
+        }
+        .ico{
+            font-size: 24px;;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topper"></div>
+    <h1 class="mainText">Wooden Workshop</h1>
+    <p>The workshop</p>
+    <p>Lorem ipsum dolor sit amet,consectetur adispiscing elit, sed do eiusmod tempor
+        Incidunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non prodent, sunt in culpa
+        qui
+        offcia
+        deserunt mollit anim id est laborum!</p>
+    <button class="btnBorder">Read more...</button>
+    
+    <div class="mainDiv">
+        <div class="third">
+            <div class="namedLocation ico"><i class="fa fa-cog" aria-hidden="true"></i>
+            </div>
+            <div class="namedLocation">Eco Production</div>
+            <div class="infoBlock">Lorem ipsum dolor sit amet,consectetur adispiscing elit, sed do eiusmod tempor
+                Incidunt ut labore et dolore magna aliqua.</div>
+    
+        </div>
+        <div class="third">
+            <div class="namedLocation ico"><i class="fa fa-globe" aria-hidden="true"></i>
+            </div>
+            <div class="namedLocation">Eco Production</div>
+            <div class="infoBlock">Lorem ipsum dolor sit amet,consectetur adispiscing elit, sed do eiusmod tempor
+                Incidunt ut labore et dolore magna aliqua.</div>
+    
+        </div>
+        <div class="third">
+            <div class="namedLocation ico"><i class="fa fa-leaf" aria-hidden="true"></i>
+            </div>
+            <div class="namedLocation">Eco Production</div>
+            <div class="infoBlock">Lorem ipsum dolor sit amet,consectetur adispiscing elit, sed do eiusmod tempor
+                Incidunt ut labore et dolore magna aliqua.</div>
+    
+        </div>
+    </div>
+    <div class="footer">
+        <div class="icon"><i class="fa fa-snowflake-o" aria-hidden="true"></i>
+        </div>
+        <div class="bottomFooter">
+            <div class="aside">
+                <div class="jingo">Address
+                </div>
+                <div>New York</div>
+                <div>0123 44</div>
+            </div>
+            <div class="bside">
+                <div class="jingo">Contact</div>
+                <div>0123-2254-2352</div>
+                <div>mhadamji@hotmail.com</div>
+            </div>
+            <div class="cside">
+                <div class="jingo">Office</div>
+                <div>Amerport</div>
+                <div>Hyderbahd</div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+</html>
