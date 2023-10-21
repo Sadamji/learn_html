@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .maincards {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 30px;
+
+        }
+
+        .cards {
+            width: 23%;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .imagery {
+            background-color: grey;
+            height: 330px;
+            position: relative;
+            border: 1px solid red;
+        }
+
+        .offer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            position: absolute;
+            right: 0;
+        }
+
+        .ank {
+            color: black;
+        }
+
+        .imagery {
+            margin-bottom: 20px;
+        }
+
+        .imagery+div {
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+
+            .cards {
+                width: 100%;
+                padding-bottom: 30px;
+                ;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Shop our products</h1>
+        <div class="maincards">
+            <div class="cards">
+                <div class="imagery">
+                    <span class="offer">Limited Offer!</span>
+                </div>
+                <div><a class="ank" href="#">Product name</a></div>
+                <div>$25</div>
+            </div>
+            <div class="cards">
+                <div class="imagery"></div>
+                <div><a class="ank" href="#">Product name</a></div>
+                <div>$25</div>
+            </div>
+            <div class="cards">
+                <div class="imagery"></div>
+                <div><a class="ank" href="#">Product name</a></div>
+                <div>$25</div>
+            </div>
+            <div class="cards">
+                <div class="imagery">
+                    <span class="offer">Limited Offer!</span>
+                </div>
+                <div><a class="ank" href="#">Product name</a></div>
+                <div>$25</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
