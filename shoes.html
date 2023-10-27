@@ -11,10 +11,12 @@
             padding: 0;
             box-sizing: border-box;
         }
-
+        body{
+            background-color: black;
+        }
         .shoe_main {
             height: 540px;
-            xbackground-color: aqua;
+            background-color: white;
         }
 
         .shoe_inner {
@@ -22,39 +24,46 @@
             xbackground-color: greenyellow;
             height: 540px;
             margin: 0 auto;
-            display: flex;
+            
             align-items: center;
-            padding-top: 90px;
+            
+            xborder: 1px solid blue;
         }
 
         .shoe_img {
             width: 540px;
             xborder: 1px solid blue;
             float: right;
+            padding-top: 70px;
         }
 
         .shoe_details {
+            float: left;
+            width: calc(100% - 540px);
+            padding-top: 90px;
+            /* 
             width: 100%;
             display: inline-block;
             xborder: 1px solid red;
             flex: 1;
             height: 450px;
-            /* Takes up remaining space */
+            */
         }
 
         .title {
-            margin-top: 50px;
+            
             margin-bottom: 40px;
             padding-left: 15px;
-            ;
-            border-left: 15px solid #F9CA16;
+            
+            border-left: 10px solid #F9CA16;
+            margin-top: 40px;
         }
 
         .detail_text {
             padding-bottom: 50px;
             font-size: 1.2em;
             margin-right: 150px;
-            line-height: 1.5em;
+            line-height: 24px;
             ;
         }
 
@@ -75,10 +84,10 @@
                 <h1 class="title">
                     About Our Shop
                 </h1>
-                <p class="detail_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur nulla sed,
-                    voluptate at unde ad
-                    tenetur laboriosam doloribus, maiores nisi officiis corrupti voluptatem facere ipsa eaque,
-                    cupiditate in optio aliquam!</p>
+                <p class="detail_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna
+                    aliqua. Ut enim ad minim veniam</p>
                 <button class="read_more"> Read More</button>
             </div>
             <div class="shoe_img">
