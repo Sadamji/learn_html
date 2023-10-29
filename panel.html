@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Collapsible Panel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Create a collapsible panel -->
+        <div class="panel panel-primary">
+            <div class="panel-heading" data-toggle="collapse" href="#collapsePanel">
+                <!-- Header content goes here -->
+                <h3 class="panel-title">Panel Header</h3>
+            </div>
+            <div id="collapsePanel" class="panel-body collapse">
+                <!-- Body content goes here -->
+                <p>This is the panel body.</p>
+            </div>
+            <div class="panel-footer">
+                <!-- Footer content goes here -->
+                Panel Footer
+            </div>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://www.w3schools.com/bootstrap4/img_avatar1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://www.w3schools.com/bootstrap4/img_avatar1.png" class="card-img-top" alt="...">
+        <div class="card-header">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://www.w3schools.com/bootstrap4/img_avatar1.png" class="img-fluid rounded-start"
+                    alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <h2>Card Image Overlay</h2>
+        <p>Turn an image into a card background and use .card-img-overlay to overlay the card's text:</p>
+        <div class="card img-fluid" style="width:500px">
+            <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image"
+                style="width:100%">
+            <div class="card-img-overlay">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. Some example text some example text. Some
+                    example
+                    text some example text. Some example text some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://www.w3schools.com/bootstrap4/img_avatar1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card1 title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <div class="row">
+                <div class="col"><a href="#" class="btn btn-primary">Go somewhere</a></div>
+                <div class="col"><a href="#" class="btn btn-secondary">Go someelse</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
